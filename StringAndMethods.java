@@ -4,7 +4,7 @@ public class StringAndMethods {
 	public static void main(String[] args) {
 
 		capitalize("blaZes");
-		wheresWaldo("Striped Waldo!");
+		wheresWaldo("I wish waldo was dead");
 		firstThingsFirst("gator", "billy");
 		soLong("bean", "pea");
 		reverse("happy");
@@ -24,7 +24,8 @@ public class StringAndMethods {
 
 	// wheresWaldo method
 	public static void wheresWaldo(String phrase) {
-		System.out.println(phrase.indexOf("W"));
+		phrase = phrase.toLowerCase();
+		System.out.println(phrase.indexOf("waldo"));
 	}
 
 	// firstThingsFirst method
